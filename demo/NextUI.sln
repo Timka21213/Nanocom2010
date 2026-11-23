@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual C# Express 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoClock", "DemoClock\DemoClock.csproj", "{7E121C30-F427-4E2F-B485-2263E3197A94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoSpeedoPanel", "DemoSpeedoPanel\DemoSpeedoPanel.csproj", "{C4392119-BE4E-4EAC-9A85-E86CA857EEE0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KnobDigitalDemo", "KnobDigitalDemo\KnobDigitalDemo.csproj", "{19EB6B72-83D8-469D-854D-FC9497AF7BA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearDigitalDemo", "LinearDigitalDemo\LinearDigitalDemo.csproj", "{CE5EC8B7-1BCF-4A3A-88DD-DE6878615F2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircularFrameGallery", "CircularFrameGallery\CircularFrameGallery.csproj", "{13ABE10F-B9F4-48D7-AC02-FFD199E18C14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinearFrameGallery", "LinearFrameGallery\LinearFrameGallery.csproj", "{5DB4438C-BD63-4220-BF0B-984AD7FCFAA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericalFrameGallery", "NumericalFrameGallery\NumericalFrameGallery.csproj", "{46BDA958-64BF-4EE2-940A-C7FC3D173827}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E121C30-F427-4E2F-B485-2263E3197A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E121C30-F427-4E2F-B485-2263E3197A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E121C30-F427-4E2F-B485-2263E3197A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E121C30-F427-4E2F-B485-2263E3197A94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4392119-BE4E-4EAC-9A85-E86CA857EEE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4392119-BE4E-4EAC-9A85-E86CA857EEE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4392119-BE4E-4EAC-9A85-E86CA857EEE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4392119-BE4E-4EAC-9A85-E86CA857EEE0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EB6B72-83D8-469D-854D-FC9497AF7BA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EB6B72-83D8-469D-854D-FC9497AF7BA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EB6B72-83D8-469D-854D-FC9497AF7BA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EB6B72-83D8-469D-854D-FC9497AF7BA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE5EC8B7-1BCF-4A3A-88DD-DE6878615F2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE5EC8B7-1BCF-4A3A-88DD-DE6878615F2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE5EC8B7-1BCF-4A3A-88DD-DE6878615F2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE5EC8B7-1BCF-4A3A-88DD-DE6878615F2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13ABE10F-B9F4-48D7-AC02-FFD199E18C14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13ABE10F-B9F4-48D7-AC02-FFD199E18C14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13ABE10F-B9F4-48D7-AC02-FFD199E18C14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13ABE10F-B9F4-48D7-AC02-FFD199E18C14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DB4438C-BD63-4220-BF0B-984AD7FCFAA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DB4438C-BD63-4220-BF0B-984AD7FCFAA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DB4438C-BD63-4220-BF0B-984AD7FCFAA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DB4438C-BD63-4220-BF0B-984AD7FCFAA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46BDA958-64BF-4EE2-940A-C7FC3D173827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46BDA958-64BF-4EE2-940A-C7FC3D173827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46BDA958-64BF-4EE2-940A-C7FC3D173827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46BDA958-64BF-4EE2-940A-C7FC3D173827}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

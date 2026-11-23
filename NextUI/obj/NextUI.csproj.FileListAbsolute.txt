@@ -1,0 +1,18 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\obj\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Release\Document.xml
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\NextUI\bin\Debug\Document.xml
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\bin\Release\NextUI.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\bin\Release\Document.xml
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\obj\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\NextUI\obj\Release\NextUI.pdb

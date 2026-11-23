@@ -1,0 +1,48 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Debug\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Debug\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\DemoClock.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\DemoClock.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\DemoClock.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Debug\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\DemoClock.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\DemoClock.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\DemoClock.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Release\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Release\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoClock\obj\Release\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Release\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Release\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\DemoClock.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\DemoClock.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\DemoClock.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Release\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Debug\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Debug\DemoClock.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\DemoClock.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\DemoClock.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\DemoClock.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\DemoClock.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoClock\obj\Debug\DemoClock.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\bin\Release\DemoClock.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\bin\Release\DemoClock.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\DemoClock.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\DemoClock.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\DemoClock.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\DemoClock.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoClock\obj\Release\DemoClock.pdb

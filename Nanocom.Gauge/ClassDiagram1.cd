@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nanocom.Gauge.AccelMeter">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAACAABAAAAACAAAACACIAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>AccelMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.BalanceMeter" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAAiACAAAAAAAAAgAQAAAAA=</HashCode>
+      <FileName>BalanceMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.Gauge" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ASCAEAgIAyBAAAAgCACGABBSAOAIAAIBAAEIAAAAAAA=</HashCode>
+      <FileName>Gauge.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.ManoMeter" Collapsed="true">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACCAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ManoMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.RevMeter" Collapsed="true">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>RevMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.SpeedoMeter" Collapsed="true">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>SpeedoMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.ThermoMeter" Collapsed="true">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>ThermoMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.Gauge.VoltMeter" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAACAAAACACAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>VoltMeter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

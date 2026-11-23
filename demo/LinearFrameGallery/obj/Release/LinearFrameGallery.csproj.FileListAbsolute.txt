@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\bin\Release\LinearFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\bin\Release\LinearFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.pdb

@@ -1,0 +1,126 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42B0D358-F043-430A-B3B3-1735A97207E8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NextUI</RootNamespace>
+    <AssemblyName>NextUI</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Document.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>Document.xml</DocumentationFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BaseUI\BaseUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Collection\BaseStack.cs" />
+    <Compile Include="Collection\CircularMarkerCollection.cs" />
+    <Compile Include="Collection\CircularPointerCollection.cs" />
+    <Compile Include="Collection\CircularRangeBaseCollection.cs" />
+    <Compile Include="Collection\CircularScaleCollection.cs" />
+    <Compile Include="Collection\FrameCollection.cs" />
+    <Compile Include="Collection\FrameLabelCollection.cs" />
+    <Compile Include="Collection\HorizontalPointerCollection.cs" />
+    <Compile Include="Collection\HorizontalScaleCollection.cs" />
+    <Compile Include="Collection\LinearRangeCollection.cs" />
+    <Compile Include="Collection\NumericalBaseCollection.cs" />
+    <Compile Include="Common\RectangleWrapF.cs" />
+    <Compile Include="Component\FrameLabel.cs">
+    </Compile>
+    <Compile Include="Common\Global.cs" />
+    <Compile Include="Common\RectangleWrap.cs" />
+    <Compile Include="Component\CircularLabel.cs" />
+    <Compile Include="Component\CircularMarker.cs" />
+    <Compile Include="Component\CircularRange.cs" />
+    <Compile Include="Component\DigitalPanel14Segment.cs" />
+    <Compile Include="Component\DigitalPanel7Segment.cs" />
+    <Compile Include="Component\HorizontalPointer.cs" />
+    <Compile Include="Component\HorizontalScaleLabel.cs" />
+    <Compile Include="Component\HorizontalScaleBar.cs" />
+    <Compile Include="Component\Label.cs" />
+    <Compile Include="Component\LinearRange.cs" />
+    <Compile Include="Component\MajorTick.cs" />
+    <Compile Include="Component\CircularScaleBar.cs" />
+    <Compile Include="Component\MinorTick.cs" />
+    <Compile Include="Component\CircularPointer.cs" />
+    <Compile Include="Component\NumericalBase.cs" />
+    <Compile Include="Component\NumericalIndicator.cs" />
+    <Compile Include="Component\Pointerbase.cs" />
+    <Compile Include="Component\PointerCapBase.cs" />
+    <Compile Include="Component\RangeBase.cs" />
+    <Compile Include="Component\ScaleBase.cs" />
+    <Compile Include="Component\ScaleLabel.cs" />
+    <Compile Include="Component\TickBase.cs" />
+    <Compile Include="Frame\CircularFrame.cs" />
+    <Compile Include="Frame\Frame.cs" />
+    <Compile Include="Frame\HorizontalFrame.cs" />
+    <Compile Include="Frame\NumericalFrame.cs" />
+    <Compile Include="Helper\AlgorithmHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderer\FrameRender.cs" />
+    <Compile Include="Renderer\RendererGradient.cs" />
+    <Compile Include="Renderer\RenderShadow.cs" />
+    <Compile Include="Shape\BaseShape.cs" />
+    <Compile Include="Shape\Circle.cs" />
+    <Compile Include="Shape\CustomArc.cs" />
+    <Compile Include="Shape\CustomTriangle2.cs" />
+    <Compile Include="Shape\CustomCircle1.cs" />
+    <Compile Include="Shape\CustomCircleRing.cs" />
+    <Compile Include="Shape\CustomTriangle.cs" />
+    <Compile Include="Shape\CustomTriangle1.cs" />
+    <Compile Include="Shape\Diamond.cs" />
+    <Compile Include="Shape\HalfCircleCustom1.cs">
+    </Compile>
+    <Compile Include="Shape\HalfCircleCustom2.cs" />
+    <Compile Include="Shape\HalfCircleCustom3.cs" />
+    <Compile Include="Shape\HalfCircleCustom4.cs" />
+    <Compile Include="Shape\QuarterCustom1.cs" />
+    <Compile Include="Shape\QuarterCustom2.cs" />
+    <Compile Include="Shape\QuarterCustom3.cs" />
+    <Compile Include="Shape\QuarterCustom4.cs" />
+    <Compile Include="Shape\RoundedRectangle.cs" />
+    <Compile Include="Shape\SRectangle.cs" />
+    <Compile Include="Shape\Triangle.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

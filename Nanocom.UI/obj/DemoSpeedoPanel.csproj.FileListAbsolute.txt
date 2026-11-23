@@ -1,0 +1,48 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Debug\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Debug\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Debug\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Debug\DemoSpeedoPanel.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\DemoSpeedoPanel\obj\Debug\DemoSpeedoPanel.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.pdb

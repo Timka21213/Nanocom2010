@@ -1,0 +1,20 @@
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\bin\Debug\DemoSpeedoPanel.exe
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\bin\Debug\DemoSpeedoPanel.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\bin\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\bin\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.Properties.Resources.resources
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\Panel.csproj.GenerateResource.Cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.exe
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.PanelForm.resources
+D:\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.exe
+D:\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.pdb
+D:\Nanocom\Nanocom.UI\bin\Debug\DemoSpeedoPanel.exe
+D:\Nanocom\Nanocom.UI\bin\Debug\DemoSpeedoPanel.pdb
+D:\Nanocom\Nanocom.UI\bin\Debug\NextUI.dll
+D:\Nanocom\Nanocom.UI\bin\Debug\NextUI.pdb
+D:\Nanocom\Nanocom.UI\obj\Debug\ResolveAssemblyReference.cache
+D:\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.PanelForm.resources
+D:\Nanocom\Nanocom.UI\obj\Debug\DemoSpeedoPanel.Properties.Resources.resources
+D:\Nanocom\Nanocom.UI\obj\Debug\Panel.csproj.GenerateResource.Cache

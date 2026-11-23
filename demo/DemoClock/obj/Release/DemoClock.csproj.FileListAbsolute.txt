@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\bin\Release\DemoClock.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\bin\Release\DemoClock.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\DemoClock.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\DemoClock.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\DemoClock.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\DemoClock.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoClock\obj\Release\DemoClock.pdb

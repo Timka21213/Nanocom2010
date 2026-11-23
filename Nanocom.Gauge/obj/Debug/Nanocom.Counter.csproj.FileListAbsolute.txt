@@ -1,0 +1,5 @@
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.Gauge\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.Gauge\bin\Debug\Nanocom.Gauge.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.Gauge\bin\Debug\Nanocom.Gauge.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.Gauge\obj\Debug\Nanocom.Gauge.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.Gauge\obj\Debug\Nanocom.Gauge.pdb

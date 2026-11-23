@@ -1,0 +1,18 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\bin\Release\NumericalFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\bin\Release\NumericalFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\NumericalFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\NumericalFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\NumericalFrameGallery\obj\Release\NumericalFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\bin\Release\NumericalFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\bin\Release\NumericalFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.csproj.GenerateResource.Cache

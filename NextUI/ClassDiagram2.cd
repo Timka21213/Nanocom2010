@@ -1,0 +1,487 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NextUI.BaseUI.BaseUI" Collapsed="true">
+    <Position X="47.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQCAAAAAAAAAAEAAAAAAAAAAIBAAAAAAIEAIAABKAAE=</HashCode>
+      <FileName>BaseUI\BaseUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.BaseStack" Collapsed="true">
+    <Position X="11.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAABAABAAQAAEABAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Collection\BaseStack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.CircularMarkerCollection" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\CircularMarkerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.CircularPointerCollection" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\CircularPointerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.CircularRangeBaseCollection" Collapsed="true">
+    <Position X="19.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\CircularRangeBaseCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.CircularScaleCollection" Collapsed="true">
+    <Position X="21.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\CircularScaleCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.FrameCollection" Collapsed="true">
+    <Position X="1.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\FrameCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.FrameLabelCollection" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\FrameLabelCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.horizontalPointerCollection" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\HorizontalPointerCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.HorizontalScaleCollection" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\HorizontalScaleCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.LinearRangeCollection" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\LinearRangeCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Collection.NumericalBaseCollection" Collapsed="true">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAABAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Collection\NumericalBaseCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Common.Global" Collapsed="true">
+    <Position X="45.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Common\Global.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Common.RectangleWrap" Collapsed="true">
+    <Position X="45.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAQAAAAAAAEAAACAIAAAACAAAAAAABAA=</HashCode>
+      <FileName>Common\RectangleWrap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Common.RectangleWrapF" Collapsed="true">
+    <Position X="47.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAABAAAAQAAAAAAAEAAACAIAAAACAAAAAAABAA=</HashCode>
+      <FileName>Common\RectangleWrapF.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.CircularLabel" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAABAIAAEIAAA=</HashCode>
+      <FileName>Component\CircularLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.CircularMarker" Collapsed="true">
+    <Position X="5.5" Y="14.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAEIAAA=</HashCode>
+      <FileName>Component\CircularMarker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.CircularPointer" Collapsed="true">
+    <Position X="49" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAACAAAAAAAAAAAAAAQgAQAAIAARAIAFAgEAAQAAA=</HashCode>
+      <FileName>Component\CircularPointer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.CircularRange" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Component\CircularRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.CircularScaleBar" Collapsed="true">
+    <Position X="7.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBgIACIAAAAACQpAkACAAQACEDAAAAIAIAAAAIEuAAA=</HashCode>
+      <FileName>Component\CircularScaleBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.DigitalPanel14Segment" Collapsed="true">
+    <Position X="0.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAABhAAAAAAAgAAAACAAAYCgAAAQAABAIAAAACAA=</HashCode>
+      <FileName>Component\DigitalPanel14Segment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.DigitalPanel7Segment" Collapsed="true">
+    <Position X="2.75" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CACAAABhAAAAAAAgAAAACAAAYCgAAAQAABAIAAAACAA=</HashCode>
+      <FileName>Component\DigitalPanel7Segment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.FrameLabel" Collapsed="true">
+    <Position X="13.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAABAAAAAIAAAAAAAAAQAAIABAAAIAAAAA=</HashCode>
+      <FileName>Component\FrameLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.HorizontalPointer" Collapsed="true">
+    <Position X="5.5" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAAAAAAAASgAUAAIAABAAABAgAIEAAAA=</HashCode>
+      <FileName>Component\HorizontalPointer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.HorizontalScaleBar" Collapsed="true">
+    <Position X="5.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAACIAAAIBCAhAkAAAgAAAABQAABIAJAAAAAACAAA=</HashCode>
+      <FileName>Component\HorizontalScaleBar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.HorizontalScaleLabel" Collapsed="true">
+    <Position X="11" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Component\HorizontalScaleLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.Label" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAAKIAAARgAAUAkAAEAAACAEJhABAIAFAACIAAAIA=</HashCode>
+      <FileName>Component\Label.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.LinearRange" Collapsed="true">
+    <Position X="12.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Component\LinearRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.MajorTick" Collapsed="true">
+    <Position X="0.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\MajorTick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.MinorTick" Collapsed="true">
+    <Position X="2.75" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Component\MinorTick.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.NumericalBase" Collapsed="true">
+    <Position X="1.75" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCEAAEAAARgAAQAECEEAAACAEJhADwYABAEAKABCIA=</HashCode>
+      <FileName>Component\NumericalBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.NumericalIndicator" Collapsed="true">
+    <Position X="47.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAkAAAAAAAAEAAAIFQBABABAAAAAACAA=</HashCode>
+      <FileName>Component\NumericalIndicator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.Pointerbase" Collapsed="true">
+    <Position X="49" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAAAAAARoAAQEEAAEAEBCCFJhQBAIBBAAACgBAoA=</HashCode>
+      <FileName>Component\Pointerbase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.PointerCapBase" Collapsed="true">
+    <Position X="50.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAQEEAAEIAACAEFhQBAIEBABACgAApA=</HashCode>
+      <FileName>Component\PointerCapBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.RangeBase" Collapsed="true">
+    <Position X="11.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAIARgRQQMECAEQAEWAEphAhCIABACgCgAAIA=</HashCode>
+      <FileName>Component\RangeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.ScaleBase" Collapsed="true">
+    <Position X="6.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABgAAGQAAARAUQhEULQEoCACIhIhCjCIIAIiEKgKBoA=</HashCode>
+      <FileName>Component\ScaleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.ScaleLabel" Collapsed="true">
+    <Position X="9.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAQAEUAAAAAAAAABAEAAAAAAA=</HashCode>
+      <FileName>Component\ScaleLabel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Component.TickBase" Collapsed="true">
+    <Position X="1.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhCAAAQABATgQAQEEAAEAEEWAFJhEBAIARAAAKhAAIA=</HashCode>
+      <FileName>Component\TickBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Frame.CircularFrame" Collapsed="true">
+    <Position X="0.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEACAAAgAAAAAAAADAAAAAAIRAAAAACAAA=</HashCode>
+      <FileName>Frame\CircularFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Frame.Frame" Collapsed="true">
+    <Position X="3" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAEABIAQAAAEQAQQAgQIDAAAABIIBAKACAKAgA=</HashCode>
+      <FileName>Frame\Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Frame.HorizontalFrame" Collapsed="true">
+    <Position X="3" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAgAAAAAAAADAAAAAAIRAAAAACAEA=</HashCode>
+      <FileName>Frame\HorizontalFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Frame.NumericalFrame" Collapsed="true">
+    <Position X="5.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAABAAAAAAAEA=</HashCode>
+      <FileName>Frame\NumericalFrame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Helper.AlgorithmHelper" Collapsed="true">
+    <Position X="45.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAABAACgAIAAAAgACAAAAEASAAAAAAAAAA=</HashCode>
+      <FileName>Helper\AlgorithmHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Renderer.FrameRender" Collapsed="true">
+    <Position X="50.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAQAAAAAAACIIABAAAJAEACAAAAA=</HashCode>
+      <FileName>Renderer\FrameRender.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Renderer.RendererGradient" Collapsed="true">
+    <Position X="49" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAQAAAQAAAAAAAAAQAIAADAAAQAAAIAALAA=</HashCode>
+      <FileName>Renderer\RendererGradient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Renderer.RenderShadow" Collapsed="true">
+    <Position X="50.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAEAAIAQAgAAAAAIBABIIABAIAAAAiAA=</HashCode>
+      <FileName>Renderer\RenderShadow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.BaseShape" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAIAAAAAAAAAAAQAAAAACAAAAAAAAAAACAAAAEIAoA=</HashCode>
+      <FileName>Shape\BaseShape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.Circle" Collapsed="true">
+    <Position X="25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\Circle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomArc" Collapsed="true">
+    <Position X="31.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAACBAIAACAAAAACAAAAAgAAADACgIAEAIA=</HashCode>
+      <FileName>Shape\CustomArc.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomCircle1" Collapsed="true">
+    <Position X="36.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAIAAAAAAAAAAAAAAAgAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\CustomCircle1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomCircleRing" Collapsed="true">
+    <Position X="40.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAIAAAAAAAACAAAAAgAAADIAAIAEAIA=</HashCode>
+      <FileName>Shape\CustomCircleRing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomTriangle" Collapsed="true">
+    <Position X="2.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAACAAAAAAAAAAAAAAADAIAAAAAIA=</HashCode>
+      <FileName>Shape\CustomTriangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomTriangle1" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\CustomTriangle1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.CustomTriangle2" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAACJAAAAAAAAAAAAAAAAgAAADAKAAAAAIA=</HashCode>
+      <FileName>Shape\CustomTriangle2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.Diamond" Collapsed="true">
+    <Position X="16" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\Diamond.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.HalfCircleCustom1" Collapsed="true">
+    <Position X="20.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\HalfCircleCustom1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.HalfCircleCustom2" Collapsed="true">
+    <Position X="27.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\HalfCircleCustom2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.HalfCircleCustom3" Collapsed="true">
+    <Position X="34" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\HalfCircleCustom3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.HalfCircleCustom4" Collapsed="true">
+    <Position X="38.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\HalfCircleCustom4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.QuarterCustom1" Collapsed="true">
+    <Position X="43" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\QuarterCustom1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.QuarterCustom2" Collapsed="true">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\QuarterCustom2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.QuarterCustom3" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\QuarterCustom3.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.QuarterCustom4" Collapsed="true">
+    <Position X="13.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\QuarterCustom4.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.RoundedRectangle" Collapsed="true">
+    <Position X="18.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\RoundedRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.SRectangle" Collapsed="true">
+    <Position X="22.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAADAAAAAAAIA=</HashCode>
+      <FileName>Shape\SRectangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NextUI.Shape.Triangle" Collapsed="true">
+    <Position X="29.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAACAAAAAAAAAAAAAAADAIAAAAAIA=</HashCode>
+      <FileName>Shape\Triangle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Delegate Name="NextUI.Collection.OnInsert" Collapsed="true">
+    <Position X="45.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Collection\BaseStack.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NextUI.Collection.OnSet" Collapsed="true">
+    <Position X="49" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Collection\BaseStack.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="NextUI.Collection.OnRemove" Collapsed="true">
+    <Position X="47.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Collection\BaseStack.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

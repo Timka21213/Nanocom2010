@@ -1,0 +1,48 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Debug\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Debug\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Release\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Release\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\LinearDigitalDemo.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearDigitalDemo\obj\Release\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Release\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Release\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\LinearDigitalDemo.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Release\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Debug\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Debug\LinearDigitalDemo.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearDigitalDemo\obj\Debug\LinearDigitalDemo.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\bin\Release\LinearDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\bin\Release\LinearDigitalDemo.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.pdb

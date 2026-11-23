@@ -1,0 +1,66 @@
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\Document.xml
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.pdb
+D:\Nanocom\NextUI\bin\Debug\NextUI.dll
+D:\Nanocom\NextUI\bin\Debug\NextUI.pdb
+D:\Nanocom\NextUI\bin\Debug\Document.xml
+D:\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+D:\Nanocom\NextUI\obj\Debug\NextUI.dll
+D:\Nanocom\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\bin\Debug\Document.xml
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\NextUI\obj\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\bin\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\bin\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\bin\Debug\Document.xml
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\obj\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\bin\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\bin\Debug\NextUI.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\bin\Debug\Document.xml
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\obj\Debug\NextUI.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\NextUI\obj\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\NextUI.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\bin\Debug\Document.xml
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\NextUI\obj\Debug\NextUI.pdb

@@ -1,0 +1,48 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\CircularFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\CircularFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\CircularFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Debug\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Debug\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Debug\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Release\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Release\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\CircularFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\CircularFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\CircularFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\CircularFrameGallery\obj\Release\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Release\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Release\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\CircularFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\CircularFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\CircularFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Release\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Debug\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Debug\CircularFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\CircularFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\CircularFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\CircularFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\CircularFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\CircularFrameGallery\obj\Debug\CircularFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\bin\Release\CircularFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\bin\Release\CircularFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.pdb

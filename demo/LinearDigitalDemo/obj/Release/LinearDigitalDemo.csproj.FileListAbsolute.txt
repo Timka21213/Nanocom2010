@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\bin\Release\LinearDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\bin\Release\LinearDigitalDemo.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\LinearDigitalDemo\obj\Release\LinearDigitalDemo.pdb

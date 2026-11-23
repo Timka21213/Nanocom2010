@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nanocom.IO.FrameProtocol">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAABABASAgAAACAAAAAgAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>FrameProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.Frame">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="Nanocom.IO.Frame.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Frame.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAASAAEAAACAAAAAAAAAgAAAAAARAQAA=</HashCode>
+      <FileName>Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.Port">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAgAAEAigABAACAAAAIAAAABAIABAAAAAAAAGAAAA=</HashCode>
+      <FileName>Port.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.PortChangeNotifier">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAABAAAAAAAAAAAAAAAAAAgAAQCAAAAAAA=</HashCode>
+      <FileName>PortChangeNotifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.ManualPortChange">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManualPortChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.AutomaticPortChange">
+    <Position X="3" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQIJCAAAAAAAAAAAAAAAIAQASCAAAAAAAA=</HashCode>
+      <FileName>AutomaticPortChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.PortChangeEventArgs">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAACAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PortChangeEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.PortDataWrittenEventArgs">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="Nanocom.IO.PortDataWrittenEventArgs.DataType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>PortDataWrittenEventArgs.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAIAAAAAAIAAAAAQEAAAAAAAAAACAAAAAwAA=</HashCode>
+      <FileName>PortDataWrittenEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\bin\Release\DemoSpeedoPanel.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\DemoSpeedoPanel\obj\Release\DemoSpeedoPanel.pdb

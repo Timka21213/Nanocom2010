@@ -1,0 +1,2813 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NextUI</name>
+    </assembly>
+    <members>
+        <member name="T:NextUI.Shape.HalfCircleCustom1">
+            <summary>
+            provide a class to generate a half circle
+            facing upward
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.BaseShape">
+            <summary>
+            Parent class for all shapes in the library, this is meant to be an
+            internal used class
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.BaseShape.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            The basic contructor of a shape
+            </summary>
+            <param name="bound">A rectangle wrapper object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.BaseShape.UpdateParameter(NextUI.Common.RectangleWrap)">
+            <summary>
+            update the bound , the radius and the center , internal used only
+            </summary>
+            <param name="bound">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.BaseShape.RenderRegion">
+            <summary>
+            Return a Region of shape , to be implemented by child class
+            </summary>
+            <returns>Region of the shape</returns>
+        </member>
+        <member name="M:NextUI.Shape.BaseShape.RenderPath">
+            <summary>
+            Return a GraphicPath of the shape , to be implemted by child class
+            </summary>
+            <returns>GraphicPath of the shape</returns>
+        </member>
+        <member name="P:NextUI.Shape.BaseShape.Radius">
+            <summary>
+            Get or set  the radius of the shape , this parameter is used if the
+            frame type is a circular frame
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.BaseShape.Center">
+            <summary>
+            Get or Set  the center of the circular shape.
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.BaseShape.Bound">
+            <summary>
+            Return the Bound that is used internally.
+            The Bound is a ractangleWrap that tells the 
+            boundary which the shape should be rendered.
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom1.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom1.RenderRegion">
+            <summary>
+            Generate a custom half circle that face upward
+            </summary>
+            <returns>the region of the half circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom1.RenderPath">
+            <summary>
+            Generate a half circle that face downward
+            </summary>
+            <returns>the graphicpath of the half circle</returns>
+        </member>
+        <member name="T:NextUI.Component.CircularScaleBar">
+            <summary>
+            The baseclass that render a scale bar, Scale bar is basically where 
+            Mark is being rendered . It can be made invisible
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.ScaleBase">
+            <summary>
+            an abstract class of the scale for both circular scale bar and horizontal scale bar
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.ScaleBase.RenderScale(NextUI.Common.RectangleWrap,System.Drawing.Graphics)">
+            <summary>
+            Abstract method to render the scale bar
+            </summary>
+            <param name="Bound"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:NextUI.Component.ScaleBase.CalculatePosition(System.Single)">
+            <summary>
+            Internal method to be inherited by child, it is used to calculate the position 
+            based on the input value
+            </summary>
+            <param name="label">the input value </param>
+            <returns></returns>
+        </member>
+        <member name="M:NextUI.Component.ScaleBase.CalculateValue(System.Single)">
+            <summary>
+            Internal method to be inherited by child , it is used to calculate the value based on the 
+            current position
+            </summary>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.TickMajor">
+            <summary>
+            Get Object to configure Major tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.TickMinor">
+            <summary>
+            Get Object to configure Minor Tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.CastLabelToInteger">
+            <summary>
+            Get or set the flag to cast all label value to integer , by
+            default , they display in floating point.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.CustomLabel">
+            <summary>
+            Get or set the custom label to be displayed instead of library generated value
+            Number of custom label should be equal to the MajorTickNumber for it to work correctly
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.Interact">
+            <summary>
+            Get or set to enable interactivity for this pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.Shadow">
+            <summary>
+            Get the shadow object to render a shadow on the scale
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.MinorTicknumber">
+            <summary>
+            Get or set the number of minor tick between majorTick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.MajorTickNumber">
+            <summary>
+            Get or set the number of major tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.EndValue">
+            <summary>
+            Get or set the end value of the label. Library use StartValue , EndValue and MajorTickNumber
+            to calculate the value of the label . If you wish to used customized label, set the CustomLabel array
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.StartValue">
+            <summary>
+            Get or set the start value of the label. Library use StartValue , EndValue and MajorTickNumber
+            to calculate the value of the label . If you wish to used customized label, set the CustomLabel array
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.Visible">
+            <summary>
+            Get or set the visibility of the bar
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.OffsetFromFrame">
+            <summary>
+            Get or set the distance from the frame.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.BorderStyle">
+            <summary>
+            Gets or sets the style of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.BorderColor">
+            <summary>
+            Gets or sets the color of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.ScaleBarSize">
+            <summary>
+            Set the thickness of the scale bar
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.FillGradientType">
+            <summary>
+            The primary fill gradient type of the scale
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.EndColor">
+            <summary>
+            Get or set the end color of the scale's fill gradient
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleBase.FillColor">
+            <summary>
+            Get or set the end color of the scale's fill color
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.ScaleBase.Style">
+            <summary>
+             enumeration of type of border line for the scale bar 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.NotSet">
+            <summary>
+            Style not set.
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.Dash">
+            <summary>
+            Specifies a line consisting of dashes. 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.DashDot">
+            <summary>
+            Specifies a line consisting of a repeating pattern of dash-dot. 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.DashDotDot">
+            <summary>
+            Specifies a line consisting of a repeating pattern of dash-dot-dot.       
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.Dot">
+            <summary>
+            Specifies a line consisting of dots.  
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleBase.Style.Solid">
+            <summary>
+            Specifies a solid line.
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.CircularScaleBar.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="toplevel">the frame that owns the scale bar</param>
+        </member>
+        <member name="M:NextUI.Component.CircularScaleBar.CalculateValue(System.Single)">
+            <summary>
+            return thr value based on angle
+            </summary>
+            <param name="position"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NextUI.Component.CircularScaleBar.CalculatePosition(System.Single)">
+            <summary>
+            Given the current value , return the angle with respect to positive y axis
+            </summary>
+            <param name="label"></param>
+            <returns></returns>
+        </member>
+        <member name="E:NextUI.Component.CircularScaleBar.Rotate">
+            <summary>
+            To receive rotate event whenever a mouse is use to move the knob
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.Radius">
+            <summary>
+            Get or set the radius of the bar to the center
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.Center">
+            <summary>
+            Get or set the center of the circular scale bar.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.Marker">
+            <summary>
+            Get the collection object to add a marker.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.Pointer">
+            <summary>
+            Get the collection object to add a pointer.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.Range">
+            <summary>
+            Get the collection object to add a range.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.TickLabel">
+            <summary>
+            Get the label object to configure the tick label.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.StartAngle">
+            <summary>
+            Starting Angle of the Scale Bar , measure from x axis
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularScaleBar.SweepAngle">
+            <summary>
+            The sweep Angle of the scale bar , starting from StartAngle
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.CircularScaleBar.OnRotate">
+            <summary>
+            The event is generated if interact is set to true for the baseUI and when someone click on 
+            the pointer
+            </summary>
+            <param name="sender">the pointer that was click</param>
+            <param name="value">the value that pointer is pointing to </param>
+        </member>
+        <member name="T:NextUI.Component.LinearRange">
+            <summary>
+            a range that is used by horizontal frame
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.RangeBase">
+            <summary>
+            abstract class for all range such as linear range and circular range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.Shadow">
+            <summary>
+            Get the shadow object to render a shadow on the scale
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.EndValue">
+            <summary>
+            Get or set the end value of the range , EndValue and StartValue determines the start location and end location of the range .
+            StartValue and EndValue depend on the value of label generated by the library ( not the custom label)
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.StartValue">
+            <summary>
+            Get or set the start value of the range, EndValue and StartValue determines the start location and end location of the range .
+            StartValue and EndValue depend on the value of label generated by the library ( not the custom label)
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.Parent">
+            <summary>
+            Get or set  the parent scale of the range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.RangePosition">
+            <summary>
+            Get or set the position with relative to the scale
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.Opaque">
+            <summary>
+            Get or set the opaque of the range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.OffsetFromScale">
+            <summary>
+            Get or set the distance from the scale, this does not effect if position is set to cross
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.StartWidth">
+            <summary>
+            Get or set the thickness of the start range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.EndWidth">
+            <summary>
+            Get or set the thickness of the end range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.Visible">
+            <summary>
+            Get or set the range visibility
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.EnableBorder">
+            <summary>
+            Get or set to enable border 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.BorderColor">
+            <summary>
+            Get or set the color of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.EnableGradient">
+            <summary>
+            Set to enable gradient color on the range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.FillColor">
+            <summary>
+            Get or set the Color of the range
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.RangeBase.EndColor">
+            <summary>
+            Get or set the end color of the range if enable gradient is set to true
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.RangeBase.Position">
+            <summary>
+            enumeration for the position of the range
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.RangeBase.Position.Inner">
+            <summary>
+            Set the position of the range to be on the inner side of the scale
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.RangeBase.Position.Cross">
+            <summary>
+            Set the position of the range on the middle of the scale
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.RangeBase.Position.Outer">
+            <summary>
+            Set the position of the range on the outward side of the scale
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.LinearRange.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="toplevel">the frame that is the parent of the scale that owns the range</param>
+        </member>
+        <member name="T:NextUI.Component.HorizontalScaleLabel">
+            <summary>
+            a horizontal scale label that can only be used by horizontal frame
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.ScaleLabel">
+            <summary>
+            Base class of label for the scale bar, to be inherited and not be used directly
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.Label">
+            <summary>
+            an abstract class to be inherited that implements a label
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.Shadow">
+            <summary>
+            Get the shadow object to configured the shadow object
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.Angle">
+            <summary>
+            Get or set the angle to rotate the label
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.EndColor">
+            <summary>
+            Get or set the end color if enable gradient is set to true.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.LabelFont">
+            <summary>
+            Get or set the label with a font
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.Visible">
+            <summary>
+            get or set to enable visible
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.EnableGradient">
+            <summary>
+            Get or set to enable or disable the gradient effect.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.EnableBorder">
+            <summary>
+            Get or set to enable the border of the label
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.FontColor">
+            <summary>
+            Get or set the font color of the Font.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.BorderColor">
+            <summary>
+            Get or set the color of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Label.Text">
+            <summary>
+            get or set the text to be displayed
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.ScaleLabel.#ctor(NextUI.Component.ScaleBase,NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="bar">the scale bar that own this label</param>
+            <param name="toplevel">the frame that own the scale bar</param>
+        </member>
+        <member name="P:NextUI.Component.ScaleLabel.Parent">
+            <summary>
+            Get the scalebase
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleLabel.OffsetFromScale">
+            <summary>
+            Get or set the offset from scale , no effect when position is set to cross.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.ScaleLabel.LabelPostion">
+            <summary>
+            Get or set the label position 
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.ScaleLabel.Position">
+            <summary>
+            enumeration for the position of the label
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleLabel.Position.Inner">
+            <summary>
+            Set the label to position on the inner side of the scale bar
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleLabel.Position.Outer">
+            <summary>
+            Set the label to position on the outer side of the scale bar
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.ScaleLabel.Position.Cross">
+            <summary>
+            set the label to position on the middle of the scale bar
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.LinearRangeCollection">
+            <summary>
+            A stack that will stored a array of linear range
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.BaseStack">
+            <summary>
+            base class that inherited by all collection
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.BaseStack.OnInsertComplete(System.Int32,System.Object)">
+            <summary>
+            Override method that called when insert to collection is done
+            </summary>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:NextUI.Collection.BaseStack.OnRemoveComplete(System.Int32,System.Object)">
+            <summary>
+            Override method that called when remove from collection is done
+            </summary>
+            <param name="index"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:NextUI.Collection.BaseStack.OnSetComplete(System.Int32,System.Object,System.Object)">
+            <summary>
+            Override method that called when set to collection is done.
+            </summary>
+            <param name="index"></param>
+            <param name="oldValue"></param>
+            <param name="newValue"></param>
+        </member>
+        <member name="M:NextUI.Collection.BaseStack.OnValidate(System.Object)">
+            <summary>
+            override method that provide validation 
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="E:NextUI.Collection.BaseStack.Insert">
+            <summary>
+            Event raised when an object is being inserted
+            </summary>
+        </member>
+        <member name="E:NextUI.Collection.BaseStack.Delete">
+            <summary>
+            Event raised when an object is being deleted
+            </summary>
+        </member>
+        <member name="E:NextUI.Collection.BaseStack.Set">
+            <summary>
+            Event raised when an object being replaced
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.LinearRangeCollection.Add(NextUI.Component.LinearRange)">
+            <summary>
+            Add a linear range to collection
+            </summary>
+            <param name="value">the range that was added</param>
+            <returns>the range that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.LinearRangeCollection.AddRange(NextUI.Component.LinearRange[])">
+            <summary>
+            Add an array of range to the collection
+            </summary>
+            <param name="value">array of range</param>
+        </member>
+        <member name="M:NextUI.Collection.LinearRangeCollection.Remove(NextUI.Component.LinearRange)">
+            <summary>
+            Remove the range from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.LinearRangeCollection.Item(System.Int32)">
+            <summary>
+            Access the linear range with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Collection.FrameLabelCollection">
+            <summary>
+            A stack that will stored a array of frame label
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.FrameLabelCollection.Add(NextUI.Component.FrameLabel)">
+            <summary>
+            Add a frame label to collection
+            </summary>
+            <param name="value">the frame label that was added</param>
+            <returns>the frame label  that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.FrameLabelCollection.AddRange(NextUI.Component.FrameLabel[])">
+            <summary>
+            Add an array of frame label to the collection
+            </summary>
+            <param name="value">array of frame label </param>
+        </member>
+        <member name="M:NextUI.Collection.FrameLabelCollection.Remove(NextUI.Component.FrameLabel)">
+            <summary>
+            Remove the frame label  from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.FrameLabelCollection.Item(System.Int32)">
+            <summary>
+            Access the frame  label  with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Collection.CircularScaleCollection">
+            <summary>
+            A stack that will stored a array of circular scale bar
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.CircularScaleCollection.Add(NextUI.Component.CircularScaleBar)">
+            <summary>
+            Add a circular scale bar to collection
+            </summary>
+            <param name="value">the scale bar that was added</param>
+            <returns>the scale bar that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.CircularScaleCollection.AddRange(NextUI.Component.CircularScaleBar[])">
+            <summary>
+            Add an array of scale bar to the collection
+            </summary>
+            <param name="value">array of scale bar</param>
+        </member>
+        <member name="M:NextUI.Collection.CircularScaleCollection.Remove(NextUI.Component.CircularScaleBar)">
+            <summary>
+            Remove the scale bar from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.CircularScaleCollection.Item(System.Int32)">
+            <summary>
+            Access the circular scale bar with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Collection.CircularMarkerCollection">
+            <summary>
+            A stack that will stored a array of circular marker
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.CircularMarkerCollection.Add(NextUI.Component.CircularMarker)">
+            <summary>
+            Add a circular marker to collection
+            </summary>
+            <param name="value">the marker that was added</param>
+            <returns>the marker that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.CircularMarkerCollection.AddRange(NextUI.Component.CircularMarker[])">
+            <summary>
+            Add an array of marker to the collection
+            </summary>
+            <param name="value">array of marker</param>
+        </member>
+        <member name="M:NextUI.Collection.CircularMarkerCollection.Remove(NextUI.Component.CircularMarker)">
+            <summary>
+            Remove the marker from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.CircularMarkerCollection.Item(System.Int32)">
+            <summary>
+            Access the circular marker with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Shape.CustomTriangle2">
+            <summary>
+            provide a class to generate a custom triangle
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle2.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor of the custom triangle
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle2.RenderRegion">
+            <summary>
+            Generate a custom triangle
+            </summary>
+            <returns>the region of the triangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle2.RenderPath">
+            <summary>
+            Generate a custom triangle
+            </summary>
+            <returns>the graphicpath of the triangle</returns>
+        </member>
+        <member name="P:NextUI.Shape.CustomTriangle2.FacingDirection">
+            <summary>
+            get or set the facing direction of the slope
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomTriangle2.StartWidth">
+            <summary>
+            Get or set the start width of the triangle
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomTriangle2.EndWidth">
+            <summary>
+            Get or set the end width of the triangle
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.CustomTriangle2.Direction">
+            <summary>
+            The direction at which the slope is facing
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomTriangle2.Direction.Downward">
+            <summary>
+            The slope is facing downward
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomTriangle2.Direction.Upward">
+            <summary>
+            The slope if facing upward
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomTriangle2.Direction.Both">
+            <summary>
+            the slope is facing bothway
+            </summary>
+        </member>
+        <member name="T:NextUI.Renderer.RenderShadow">
+            <summary>
+            A class that helps to render the shadow , by default shadow is always black
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RenderShadow.Visible">
+            <summary>
+            get or set the visibility of the shadow, set to false to disable it 
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RenderShadow.CastDirection">
+            <summary>
+            Get or set the direction of casting 
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RenderShadow.Offset">
+            <summary>
+            Get of set the offset of the shadow , offset can be positive or negative
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RenderShadow.Opacity">
+            <summary>
+            The opacity of the shadow, the higher the opacity , the less translucent it is
+            </summary>
+        </member>
+        <member name="T:NextUI.Renderer.RenderShadow.Direction">
+            <summary>
+            Set the direction of the shadow that will be cast
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RenderShadow.Direction.Backward">
+            <summary>
+            Set the shadow casting direction to be backward
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RenderShadow.Direction.Forward">
+            <summary>
+            Set the shadow casting direction to be forward
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.HorizontalScaleBar">
+            <summary>
+            A horizontal scalebar that can only be used by horizontal frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.HorizontalScaleBar._bound">
+            <summary>
+            a private rectangle warp that is used to calculate the offset of the pointer
+            relative to the scale bar
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.HorizontalScaleBar.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="toplevel">the frame that own this scale bar</param>
+        </member>
+        <member name="E:NextUI.Component.HorizontalScaleBar.Drag">
+            <summary>
+            To receive drag event whenever a mouse is use to move the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalScaleBar.Pointer">
+            <summary>
+            Get the pointer collection to add or remove new pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalScaleBar.Range">
+            <summary>
+            Get the collection object to add a Range.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalScaleBar.TickLabel">
+            <summary>
+            Get the label object to configure the tick label.
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.HorizontalScaleBar.OnDrag">
+            <summary>
+            The event is generated if interact is set to true for the baseUI and when someone click on 
+            the pointer
+            </summary>
+            <param name="sender">the pointer that was click</param>
+            <param name="value">the value that pointer is pointing to </param>
+        </member>
+        <member name="T:NextUI.Common.RectangleWrap">
+            <summary>
+            A Common rectangle class that is used throughout the library
+            This class will ensure the reactangle will not have size
+            lesser or equal to 0.
+            </summary>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrap.#ctor(System.Drawing.Rectangle)">
+            <summary>
+            Contruct a RectangleWrap with a rectangle
+            </summary>
+            <param name="rect"></param>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrap.Shrink(System.Int32)">
+            <summary>
+            The Shrink method will help to reduce the size the bound
+            and return a new RectangleWrap object
+            so long as the reduce size is not smaller than Global.SIZE
+            </summary>
+            <param name="pixel"> the size to be reduced</param>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrap.Expand(System.Int32)">
+            <summary>
+             To expand the size of the rectangle and return 
+            a new RectangleWrap
+            </summary>
+            <param name="pixel"></param>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrap.Left">
+            <summary>
+            The Left Coordinate
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrap.Top">
+            <summary>
+            The uppper  Coordinate
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrap.Width">
+            <summary>
+            The Width of the Rectangle , you cannot set the 
+            width to be lesser than Global.SIZE.
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrap.Height">
+            <summary>
+            The Height of the Rectangle , you cannot set the 
+            height to be lesser than Global.SIZE.
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrap.Rect">
+            <summary>
+            A convenient property that returns the readonly rectangle.
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.HorizontalScaleCollection">
+            <summary>
+            A stack that will stored a array of horizontal scale bar
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.HorizontalScaleCollection.Add(NextUI.Component.HorizontalScaleBar)">
+            <summary>
+            Add a horizontal scale bar to collection
+            </summary>
+            <param name="value">the scale bar that was added</param>
+            <returns>the scale bar that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.HorizontalScaleCollection.AddRange(NextUI.Component.HorizontalScaleBar[])">
+            <summary>
+            Add an array of scale bar to the collection
+            </summary>
+            <param name="value">array of scale bar</param>
+        </member>
+        <member name="M:NextUI.Collection.HorizontalScaleCollection.Remove(NextUI.Component.HorizontalScaleBar)">
+            <summary>
+            Remove the scale bar from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.HorizontalScaleCollection.Item(System.Int32)">
+            <summary>
+            Access the horizontal scale bar with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Shape.RoundedRectangle">
+            <summary>
+            provide a class to generate a RoundedRectangle 
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.RoundedRectangle.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.RoundedRectangle.RenderRegion">
+            <summary>
+            Generate a RoundedRectangle Region
+            </summary>
+            <returns>the region of the rectangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.RoundedRectangle.RenderPath">
+            <summary>
+            Generate a RoundedRectangle Path
+            </summary>
+            <returns>the graphic path of the rectangle</returns>
+        </member>
+        <member name="T:NextUI.Shape.CustomTriangle1">
+            <summary>
+            provide a class to generate a custom triangle
+            
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle1.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle1.RenderRegion">
+            <summary>
+            Generate a custom triangle
+            </summary>
+            <returns>region of the custom triangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle1.RenderPath">
+            <summary>
+            Generate the graphic path of the triangle
+            </summary>
+            <returns>graphic path of the triangle</returns>
+        </member>
+        <member name="T:NextUI.Component.MinorTick">
+            <summary>
+            class that render the minor tick
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.TickBase">
+            <summary>
+            The base class of major tick and minor tick
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.TickBase.#ctor(NextUI.Component.ScaleBase,NextUI.Frame.Frame)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="parent">the scale who owns the tick</param>
+            <param name="toplevel">the frame who owns the scale</param>
+        </member>
+        <member name="P:NextUI.Component.TickBase.Shadow">
+            <summary>
+            Get the shadow renderer
+            object to configure the shadow property of the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.OffsetFromScale">
+            <summary>
+            Get or set the distance from the scale, this has no effect if position is set to cross
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.TickPosition">
+            <summary>
+            Get or set the position of the tick, can be inner , cross or outer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.Visible">
+            <summary>
+            Get or set the tick visibility
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.Type">
+            <summary>
+            Get or set the shape of the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.EnableBorder">
+            <summary>
+            Get or set to enable border 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.BorderColor">
+            <summary>
+            Get or set the color of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.EnableGradient">
+            <summary>
+            Set to enable gradient color on the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.FillColor">
+            <summary>
+            Get or set the Color of the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.EndColor">
+            <summary>
+            Get or set the end color of the tick if enable gradient is set to true
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.Height">
+            <summary>
+            Get or set the height of the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.Width">
+            <summary>
+            Get or set the width of the tick
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.TickBase.BackImage">
+            <summary>
+            Get or set the image to be displayed
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.TickBase.TickType">
+            <summary>
+            enumeration for the shape of the tick
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.Circle">
+            <summary>
+            Set the tick with a circle shape
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.Triangle">
+            <summary>
+            Set the tick with a triangle shape
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.DownTriangle">
+            <summary>
+            Set the tick with a triangle shape , but pointing downward
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.Rectangle">
+            <summary>
+            Set the tick with a rectangle shape
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.RoundedRect">
+            <summary>
+            Set the tick with a rounded rectangle shape
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.CustomTriangle1">
+            <summary>
+            Set the tick with a arrow head shape 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.DownCustomTriangle1">
+            <summary>
+            Set the tick with a arrow head shape , pointing downward
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.TickType.Diamond">
+            <summary>
+            Set the tick with a diamond shape
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.TickBase.Position">
+            <summary>
+            Enumeration for the position of the tick , the position is relative to
+            the scale bar 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.Position.Inner">
+            <summary>
+            Set the position of the tick on the inner side of the scale
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.Position.Outer">
+            <summary>
+            Set the position of the tick on the middle of the scale
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.TickBase.Position.Cross">
+            <summary>
+            Set the position of the tick on the outward side of the scale
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.MinorTick.#ctor(NextUI.Component.ScaleBase,NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="bar">the scalebar that own the minor tick</param>
+            <param name="topLevel">the frame that own the scale bar</param>
+        </member>
+        <member name="T:NextUI.Component.PointerCapBase">
+            <summary>
+            A class that render the pointer cap
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.Bound">
+            <summary>
+            Get or set the bound of the cap
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.Shadow">
+            <summary>
+            Get the shadow object to configure shadow for the cap
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.Visible">
+            <summary>
+            Get or set the visibility of the caps
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.CapImage">
+            <summary>
+            Get or set the CapImage, set to null to remove the image. 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.Diameter">
+            <summary>
+            Get or set the diameter of the caps.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.CapType">
+            <summary>
+            Get or set the type of cap
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.FillColor">
+            <summary>
+            Get or set the color to be filled 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.BorderColor">
+            <summary>
+            Get or set the color of the border if enabled
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.PointerCapBase.EnableBorder">
+            <summary>
+            Get or set to enable border
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.PointerCapBase.PointerCapType">
+            <summary>
+            enumeration for the type of the cap
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type1">
+            <summary>
+            Plain circular shape cap
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type2">
+            <summary>
+            Plain gear shape circular shape cap
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type3">
+            <summary>
+            Circular shape with gradient
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type4">
+            <summary>
+            Gear circular shape with gradient
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type5">
+            <summary>
+            circular ring cap
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.PointerCapBase.PointerCapType.Type6">
+            <summary>
+            Gear circular shape with gradient with more face
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.FrameCollection">
+            <summary>
+            A stack that will stored a array of frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.FrameCollection.Add(NextUI.Frame.Frame)">
+            <summary>
+            Add a frame to collection
+            </summary>
+            <param name="value">the frame that was added</param>
+            <returns>the frame that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.FrameCollection.AddRange(NextUI.Frame.Frame[])">
+            <summary>
+            Add an array of frame to the collection
+            </summary>
+            <param name="value">array of frame</param>
+        </member>
+        <member name="M:NextUI.Collection.FrameCollection.Remove(NextUI.Frame.Frame)">
+            <summary>
+            Remove the frame from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.FrameCollection.Item(System.Int32)">
+            <summary>
+            Access the frame with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Renderer.FrameRender">
+            <summary>
+            A class that help to render the outer frame of the gauge
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.FrameRender.Outline">
+            <summary>
+            Get or set the outline to be rendered .
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.FrameRender.MainColor">
+            <summary>
+            Get or set the main color of the frame
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.FrameRender.FrameWidth">
+            <summary>
+            Get or set the thickness of the frame
+            </summary>
+        </member>
+        <member name="T:NextUI.Renderer.FrameRender.FrameOutline">
+            <summary>
+            Type of frame that is currently supported
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.None">
+            <summary>
+            Specifies no outer frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type1">
+            <summary>
+            Specifies a solid color frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type2">
+            <summary>
+            Type 2 metallic frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type3">
+            <summary>
+            Type 3 metallic frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type4">
+            <summary>
+            Type 4 frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type5">
+            <summary>
+            Type 5 frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.FrameRender.FrameOutline.Type6">
+            <summary>
+            Type 6 frame
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.NumericalBaseCollection">
+            <summary>
+            A stack that will stored a array of numeric panel
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.NumericalBaseCollection.Add(NextUI.Component.NumericalBase)">
+            <summary>
+            Add a numeric panel to collection
+            </summary>
+            <param name="value">the panel that was added</param>
+            <returns>the panel that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.NumericalBaseCollection.AddRange(NextUI.Component.NumericalBase[])">
+            <summary>
+            Add an array of panel to the collection
+            </summary>
+            <param name="value">array of panel</param>
+        </member>
+        <member name="M:NextUI.Collection.NumericalBaseCollection.Remove(NextUI.Component.NumericalBase)">
+            <summary>
+            Remove the panel from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.NumericalBaseCollection.Item(System.Int32)">
+            <summary>
+            Access the panel with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Collection.OnInsert">
+            <summary>
+            Call when an object is being inserted into collection
+            </summary>
+            <param name="sender">the object being inserted</param>
+            <param name="index">the index of the object in the collection</param>
+        </member>
+        <member name="T:NextUI.Collection.OnSet">
+            <summary>
+            Call when an object in collection is being replaced
+            </summary>
+            <param name="sender">the object being replaced</param>
+            <param name="index">the index of the object in the collection</param>
+        </member>
+        <member name="T:NextUI.Collection.OnRemove">
+            <summary>
+            Call when an object is being removed from collection
+            </summary>
+            <param name="sender">the object being removed</param>
+            <param name="index">the index of the object in the collection</param>
+        </member>
+        <member name="T:NextUI.Shape.QuarterCustom4">
+            <summary>
+            Provide a class to generate a quarter circle
+            facing downward right
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom4.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom4.RenderRegion">
+            <summary>
+            Generate a custom quarter circle  
+            </summary>
+            <returns>Region of the quarter circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom4.RenderPath">
+            <summary>
+            Generate a custom quarter circle
+            </summary>
+            <returns>Graphicpath of the quarter circle</returns>
+        </member>
+        <member name="M:NextUI.Helper.AlgorithmHelper.NormalizeDegree(System.Single,System.Single)">
+            <summary>
+            Normalze degree to reference
+            </summary>
+            <param name="adjusted">adjusted is the angle at which the degree is to adjusted </param>
+            <param name="degree">degree to be adjusted</param>
+            <returns>degree being normalized to referernce</returns>
+        </member>
+        <member name="T:NextUI.Frame.NumericalFrame">
+            <summary>
+            A frame that suppport a numeric display
+            </summary>
+        </member>
+        <member name="T:NextUI.Frame.Frame">
+            <summary>
+            Parent of all frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Frame.Frame.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="bound">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Frame.Frame.Render(System.Drawing.Graphics)">
+            <summary>
+             custom render method to be implemented by the child 
+            </summary>
+            <param name="e">the graphic object</param>
+        </member>
+        <member name="M:NextUI.Frame.Frame.OnMouseMove(System.Windows.Forms.MouseEventArgs)">
+            <summary>
+            custom on mouse move to be implemented by child
+            </summary>
+            <param name="e"></param>
+        </member>
+        <member name="P:NextUI.Frame.Frame.FrameImage">
+            <summary>
+            Get or set the Image of the frame, set frameImage will disable the 
+            framerenderer , set FrameImage to null will remove the image
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.BackImage">
+            <summary>
+            Get or set the background Image of the frame, set the background image will
+            disable the backrenderer , set BackImage to null will remove the image
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.Interact">
+            <summary>
+            Get or set to enable interactivity for this pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.FrameLabelCollection">
+            <summary>
+            Get the FrameLabelCollection object to add framelabel into the current frame
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.FrameCollection">
+            <summary>
+            Get the Framecollection object to add the inner frame
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.BackRenderer">
+            <summary>
+            Get the Rendererobject to set the type of background , setting BackImage will
+            disanle the backrenderer
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.FrameRenderer">
+            <summary>
+            Get the Rendererobject to set the type of frame to render, setting FrameImage will
+            disable the framerenderer.
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.Rect">
+            <summary>
+            Get the current location and size as rectangle 
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.Frame.Bound">
+            <summary>
+            Return the Current Bound of the Frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Frame.NumericalFrame.#ctor(System.Drawing.Rectangle)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="rect">the location and the size of the numeric frame. Position is relative to the parent baseUI</param>
+        </member>
+        <member name="P:NextUI.Frame.NumericalFrame.Indicator">
+            <summary>
+            Get the numerical object that will be used for configuration.
+            </summary>
+        </member>
+        <member name="T:NextUI.Frame.NumericalFrame.FrameType">
+            <summary>
+            The type of frame supported by circular frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.NumericalFrame.FrameType.Rectangle">
+            <summary>
+            Render the frame as rectangle
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.NumericalFrame.FrameType.RoundedRectangle">
+            <summary>
+            Render the frame as rounded rectangle
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.CircularPointer">
+            <summary>
+            a class that render a circular pointer which is only used by circular frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.CircularPointer.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="toplevel">the frame that owns the pointer</param>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.Angle">
+            <summary>
+            get or set the current angle the pointer is pointing to , the angle is 
+            normalised to + y axis.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.Value">
+            <summary>
+            Get or set the value the pointer will be pointing to .
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.CapOnTop">
+            <summary>
+            Get or set whether the pointer cap should be on top.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.Parent">
+            <summary>
+            Internal to be set by Scale.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.BasePointer">
+            <summary>
+            Get the pointer object that can be used to configured the pointer.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularPointer.CapPointer">
+            <summary>
+            Get the pointer cap object that can be used to configured the pointer cap.
+            </summary>
+        </member>
+        <member name="T:NextUI.Collection.horizontalPointerCollection">
+            <summary>
+            A stack that will stored a array of horizontal pointer
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.horizontalPointerCollection.Add(NextUI.Component.HorizontalPointer)">
+            <summary>
+            Add a horizontal pointer to collection
+            </summary>
+            <param name="value">the pointer that was added</param>
+            <returns>the pointer that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.horizontalPointerCollection.AddRange(NextUI.Component.HorizontalPointer[])">
+            <summary>
+            Add an array of pointer to the collection
+            </summary>
+            <param name="value">array of pointer</param>
+        </member>
+        <member name="M:NextUI.Collection.horizontalPointerCollection.Remove(NextUI.Component.HorizontalPointer)">
+            <summary>
+            Remove the pointer from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.horizontalPointerCollection.Item(System.Int32)">
+            <summary>
+            Access the circular pointer with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Shape.QuarterCustom3">
+            <summary>
+            provide a class to generate a quarter circle
+            facing upward right
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom3.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom3.RenderRegion">
+            <summary>
+            Generate a custom quarter circle  
+            </summary>
+            <returns>region of the quarter circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom3.RenderPath">
+            <summary>
+            Generate a custom quarter circle
+            </summary>
+            <returns>graphicpath of the quarter circle</returns>
+        </member>
+        <member name="T:NextUI.Collection.CircularRangeBaseCollection">
+            <summary>
+            A stack that will stored a array of circular range
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.CircularRangeBaseCollection.Add(NextUI.Component.CircularRange)">
+            <summary>
+            Add a circular range to collection
+            </summary>
+            <param name="value">the range that was added</param>
+            <returns>the range that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.CircularRangeBaseCollection.AddRange(NextUI.Component.CircularRange[])">
+            <summary>
+            Add an array of range to the collection
+            </summary>
+            <param name="value">array of range</param>
+        </member>
+        <member name="M:NextUI.Collection.CircularRangeBaseCollection.Remove(NextUI.Component.CircularRange)">
+            <summary>
+            Remove the range from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.CircularRangeBaseCollection.Item(System.Int32)">
+            <summary>
+            Access the circular range with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+        <member name="T:NextUI.Shape.QuarterCustom2">
+            <summary>
+            provide a class to generate a quarter circle
+            facing downward left
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom2.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom2.RenderRegion">
+            <summary>
+            Generate a custom quarter circle  
+            </summary>
+            <returns>the region of the quarter circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom2.RenderPath">
+            <summary>
+            Generate a custom quarter circle
+            </summary>
+            <returns>the graphicpath of the quarter circle</returns>
+        </member>
+        <member name="T:NextUI.Component.NumericalIndicator">
+            <summary>
+            a Class that encapculate all type of numerical panel
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalIndicator.RoundedValue">
+            <summary>
+            Get or set the display value is rounded to if RoundedOff is set to true
+            Use the first discover dot as a starting point of discarding 
+            If RoundedValue is set to 1, and DisplayValue is 1.333, the resultant value
+            that will be displayed is 1.3
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalIndicator.RoundedOff">
+            <summary>
+            Get or set  to enable rounded off of the display value 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalIndicator.Panels">
+            <summary>
+            Get the panels object to add panels
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalIndicator.DisplayValue">
+            <summary>
+            Get or set the value to be displayed
+            </summary>
+        </member>
+        <member name="T:NextUI.Common.RectangleWrapF">
+            <summary>
+            A Common rectangle class that is used throughout the library
+            This class will ensure the reactangle will not have size
+            lesser or equal to 0.
+            </summary>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrapF.#ctor(System.Drawing.RectangleF)">
+            <summary>
+            Contruct a RectangleWrap with a rectangle
+            </summary>
+            <param name="rect"></param>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrapF.Shrink(System.Int32)">
+            <summary>
+            The Shrink method will help to reduce the size the bound
+            and return a new RectangleWrap object
+            so long as the reduce size is not smaller than Global.SIZE
+            </summary>
+            <param name="pixel"> the size to be reduced</param>
+        </member>
+        <member name="M:NextUI.Common.RectangleWrapF.Expand(System.Int32)">
+            <summary>
+             To expand the size of the rectangle and return 
+            a new RectangleWrap
+            </summary>
+            <param name="pixel"></param>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrapF.Left">
+            <summary>
+            The Left Coordinate
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrapF.Top">
+            <summary>
+            The uppper  Coordinate
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrapF.Width">
+            <summary>
+            The Width of the Rectangle , you cannot set the 
+            width to be lesser than Global.SIZE.
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrapF.Height">
+            <summary>
+            The Height of the Rectangle , you cannot set the 
+            height to be lesser than Global.SIZE.
+            </summary>
+        </member>
+        <member name="P:NextUI.Common.RectangleWrapF.Rect">
+            <summary>
+            A convenient property that returns the readonly rectangle.
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.QuarterCustom1">
+            <summary>
+            provide a class to generate a quarter circle
+            facing upward left
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom1.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom1.RenderRegion">
+            <summary>
+            Generate a custom quarter circle  
+            </summary>
+            <returns>the region of the circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.QuarterCustom1.RenderPath">
+            <summary>
+            Generate a custom quarter circle
+            </summary>
+            <returns>the region of the circle</returns>
+        </member>
+        <member name="T:NextUI.Shape.CustomTriangle">
+            <summary>
+            provide a class to generate a custom triangle
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle.RenderRegion">
+            <summary>
+            Generate a custom triangle
+            </summary>
+            <returns>region of the triangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomTriangle.RenderPath">
+            <summary>
+            Generate a custom triangle
+            </summary>
+            <returns>graphicpath of the triangle</returns>
+        </member>
+        <member name="P:NextUI.Shape.CustomTriangle.Direction">
+            <summary>
+            Get or set the direction the triangle is pointing to 
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.CustomTriangle.PointDirection">
+            <summary>
+            the direction the triangle is pointing to
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomTriangle.PointDirection.up">
+            <summary>
+            triangle is pointing upward
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomTriangle.PointDirection.down">
+            <summary>
+            triangle is pointing downward
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.Circle">
+            <summary>
+            provide a class to generate a circle 
+            The Circle will use the smaller length of the rectangleWrap
+            as the radius.
+            It is meant to be internal used only
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.Circle.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            A circle contructor 
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.Circle.RenderRegion">
+            <summary>
+            Generate a Circle
+            </summary>
+            <returns>return region</returns>
+        </member>
+        <member name="M:NextUI.Shape.Circle.RenderPath">
+            <summary>
+            Generate a graphic path of circle
+            </summary>
+            <returns>return graphicpath</returns>
+        </member>
+        <member name="T:NextUI.Frame.HorizontalFrame">
+            <summary>
+            Provide class to support a horizontal frame 
+            </summary>
+        </member>
+        <member name="M:NextUI.Frame.HorizontalFrame.#ctor(System.Drawing.Rectangle)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="rect">the location and the size of the frame. Position is relative to the parent baseUI</param>
+        </member>
+        <member name="P:NextUI.Frame.HorizontalFrame.Type">
+            <summary>
+            Get or set the frame to show
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.HorizontalFrame.ScaleCollection">
+            <summary>
+            Get the horizontal scale collection object to manipulate the horozontal scale
+            </summary>
+        </member>
+        <member name="T:NextUI.Frame.HorizontalFrame.FrameType">
+            <summary>
+            The type of frame supported by circular frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.HorizontalFrame.FrameType.Rectangle">
+            <summary>
+            Render the frame as rectangle
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.HorizontalFrame.FrameType.RoundedRectangle">
+            <summary>
+            Render the frame as rounded rectangle
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.MajorTick">
+            <summary>
+            a Class that render a major tick
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.MajorTick.#ctor(NextUI.Component.ScaleBase,NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="bar">the scale bar that own the major tick</param>
+            <param name="toplevel">the frame that own the scale bar</param>
+        </member>
+        <member name="T:NextUI.Component.CircularRange">
+            <summary>
+            The circular range that is only supported by circular frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.CircularRange.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="toplevel">the frame that owns the range</param>
+        </member>
+        <member name="T:NextUI.Shape.CustomCircleRing">
+            <summary>
+            provide a class to generate a circle ring
+            The Circle will use the smaller length of the rectangleWrap
+            as the radius.
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircleRing.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircleRing.RenderRegion">
+            <summary>
+            Generate a ring
+            </summary>
+            <returns>region of the ring</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircleRing.RenderPath">
+            <summary>
+            Generate a ring
+            </summary>
+            <returns>graphicpath of the ring</returns>
+        </member>
+        <member name="P:NextUI.Shape.CustomCircleRing.ScaleBarSize">
+            <summary>
+            Get or set the thickness of the shape
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomCircleRing.StartAngle">
+            <summary>
+            Get or set starting Angle of the ring , measure from x axis
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomCircleRing.SweepAngle">
+            <summary>
+            Get or set the sweep Angle of the scale bar , starting from StartAngle
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.Pointerbase">
+            <summary>
+            a class that render the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.OffsetFromCenter">
+            <summary>
+            Get or set the offset of the pointer from center, it can be positive or negative
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.Bound">
+            <summary>
+            Get or set the bound of the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.EnableGradient">
+            <summary>
+            Get or Set to enable gradient color on the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.EndColor">
+            <summary>
+            Get or set the end color of the pointer if enable gradient is set to true
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.Shadow">
+            <summary>
+            Get the shadow object to configure the shadow property of the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.Visible">
+            <summary>
+            Get or set the visibility of the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.PointerImage">
+            <summary>
+            Get or set the PointerImage, if PointerImage is null , remove the image
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.Width">
+            <summary>
+            Get or set the width of the pointer.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.Length">
+            <summary>
+            Get or set the length of the Pointer.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.PointerShapeType">
+            <summary>
+            Get or set the type of Pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.FillColor">
+            <summary>
+            Get or set the color to be filled 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.BorderColor">
+            <summary>
+            Get or set the color of the border if enabled
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.Pointerbase.EnableBorder">
+            <summary>
+            Get or set to enable border
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.Pointerbase.PointerType">
+            <summary>
+            Enumeration for the different shape of the pointer
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.Pointerbase.PointerType.Type1">
+            <summary>
+            Arrow head pointer
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.Pointerbase.PointerType.Type2">
+            <summary>
+            triangle pointer
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.Pointerbase.PointerType.Type3">
+            <summary>
+            diamond
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.Pointerbase.PointerType.Type4">
+            <summary>
+            rounded rectangle pointer
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.CircularLabel">
+            <summary>
+            a class that implement a label that is only used by circular frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.CircularLabel.#ctor(NextUI.Component.ScaleBase,NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="parent">the scale bar that owns the label</param>
+            <param name="toplevel">the frame that owns the scale bar which owns the label</param>
+        </member>
+        <member name="M:NextUI.Component.CircularLabel.Render(System.Drawing.Point,System.Drawing.Graphics,System.Single)">
+            <summary>
+            
+            </summary>
+            <param name="p"></param>
+            <param name="e"></param>
+            <param name="angle">Angle is always measured from positive x axis</param>
+        </member>
+        <member name="P:NextUI.Component.CircularLabel.TextDirection">
+            <summary>
+            Get or set the TextDirection of the font .
+            Horizontal will always keep the text in horizontal position
+            Normal will let the system handle the direction.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.CircularLabel.Center">
+            <summary>
+            Get or set the center for the label to be render around
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.CircularLabel.Direction">
+            <summary>
+            enumaration that set the way the label is displayed
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.CircularLabel.Direction.Normal">
+            <summary>
+            the label shall be displayed around the scale bar 
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.CircularLabel.Direction.Horizontal">
+            <summary>
+            the label shall be displayed around the scale bar but displayed the text horizontally
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.Triangle">
+            <summary>
+            provide a class to generate a triangle
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.Triangle.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.Triangle.RenderRegion">
+            <summary>
+            Generate a triangle
+            </summary>
+            <returns>region of the triangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.Triangle.RenderPath">
+            <summary>
+            Generate a triangle
+            </summary>
+            <returns>graphicpath of the triangle</returns>
+        </member>
+        <member name="P:NextUI.Shape.Triangle.Direction">
+            <summary>
+            Get or set the direction the triangle is pointing to 
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.Triangle.PointDirection">
+            <summary>
+            the direction the triangle is pointing to
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.Triangle.PointDirection.up">
+            <summary>
+            Set the triangle to point upward
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.Triangle.PointDirection.down">
+            <summary>
+            Set the triangle to point downward
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.HorizontalPointer">
+            <summary>
+            A horizontal that rides along the horizontal scalebar.
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.HorizontalPointer.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="toplevel">the parent frame that own the scale bar which own the pointer</param>
+        </member>
+        <member name="P:NextUI.Component.HorizontalPointer.Value">
+            <summary>
+            Get or set the value the pointer to point to, the value depends on the label of the scale. 
+            the value of the label is the automatic calculated value by the library and not the custom label
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalPointer.OffsetFromScale">
+            <summary>
+            Get or set the offset from the scale, does not impact when poation is set to cross
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalPointer.PointerPosition">
+            <summary>
+            Get or set the position of the pointer
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalPointer.Parent">
+            <summary>
+            Internal to be set by Scale.
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.HorizontalPointer.BasePointer">
+            <summary>
+            Get the pointer object that can be used to configured the pointer.
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.HorizontalPointer.Position">
+            <summary>
+            enumeration for the position of the pointer
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.HorizontalPointer.Position.Inner">
+            <summary>
+            Set the position of the pointer on the inner side of the scale bar
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.HorizontalPointer.Position.Cross">
+            <summary>
+            Set the position of the pointer on the middle of the scale bar
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.HorizontalPointer.Position.Outer">
+            <summary>
+            Set the position of the pointer on the outward side of the scale bar
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.DigitalPanel14Segment">
+            <summary>
+            a class that implement a 14 segment digital panel
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.NumericalBase">
+            <summary>
+            Abstract class to be inherited for all numerical panel
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.Shadow">
+            <summary>
+            Get the shadow object to configure the shadow 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.GradientType">
+            <summary>
+            Get or set the type of gradient to be rendered if enable gradient is set to true
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.DisplayOn">
+            <summary>
+            Get or set to enable DisplayValue to be shown , else DisplayValue will not be shown regardless of the value
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.Visible">
+            <summary>
+            Get or set the visibility of the component
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.DisplayValue">
+            <summary>
+            Get or set the value to be displayed
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.MainColor">
+            <summary>
+            Get or set the Main display Color .
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.BackColor">
+            <summary>
+            Get or set the back color
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.BorderColor">
+            <summary>
+            Get or set the Color of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.BorderWidth">
+            <summary>
+            Get or set the width of the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.EnableBorder">
+            <summary>
+            Get or set to enable the border
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.EnableGradient">
+            <summary>
+            Get or set to enable gradient 
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.NumericalBase.EndColor">
+            <summary>
+            Get or set the end color , if gradient is enable
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.DigitalPanel14Segment.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="toplevel">the frame that owns the panel</param>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel14Segment.Position">
+            <summary>
+            Get or set the Direction of the pnnel
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel14Segment.BackOpacity">
+            <summary>
+            Get or set the opacity of the back ground
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel14Segment.FontThickness">
+            <summary>
+            Get or set the thickness of the font
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel14Segment.EnableGlare">
+            <summary>
+            Get or set to enable the glare effect
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.DigitalPanel14Segment.Direction">
+            <summary>
+            enumeration that set the type of 7 segment panel
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.DigitalPanel14Segment.Direction.Normal">
+            <summary>
+            the panel is displayed straight up
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.DigitalPanel14Segment.Direction.Slide">
+            <summary>
+            the panel is displayed with a slight slant
+            </summary>
+        </member>
+        <member name="T:NextUI.Common.Global">
+            <summary>
+            A class that stored the global wide variable
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.CustomArc">
+            <summary>
+            provide a class to generate a arc. It is meant
+            to be internal used only
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomArc.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic contructor of Arc
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomArc.RenderRegion">
+            <summary>
+            Generate an arc region
+            </summary>
+            <returns>region of arc</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomArc.RenderPath">
+            <summary>
+            Generate an arc graphic path 
+            </summary>
+            <returns>return graphic path</returns>
+        </member>
+        <member name="P:NextUI.Shape.CustomArc.Direction">
+            <summary>
+            Get or set the position of the arc , different position will produce different arc
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomArc.StartWidth">
+            <summary>
+            Get or set the start width of the Arc
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomArc.EndWidth">
+            <summary>
+            Get or set the end width of the Arc
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomArc.StartAngle">
+            <summary>
+            Get or set the starting Angle of the arc , measure from x axis
+            </summary>
+        </member>
+        <member name="P:NextUI.Shape.CustomArc.SweepAngle">
+            <summary>
+            Get or set the sweep Angle of the arc , starting from StartAngle
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.CustomArc.Position">
+            <summary>
+            The position of the Arc , diffeent position will provide different Arc
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomArc.Position.Inner">
+            <summary>
+            Render an inner arc
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomArc.Position.Cross">
+            <summary>
+            Render a cross arc
+            </summary>
+        </member>
+        <member name="F:NextUI.Shape.CustomArc.Position.Outer">
+            <summary>
+            Render an outer arc
+            </summary>
+        </member>
+        <member name="T:NextUI.Renderer.RendererGradient">
+            <summary>
+            This class is a helper class to render any gradient shade.
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RendererGradient.CenterColor">
+            <summary>
+            Get or set the Main Color of the gradient to be rendered 
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RendererGradient.FillGradientType">
+            <summary>
+            Get or set the type of gradient to be rendered
+            </summary>
+        </member>
+        <member name="P:NextUI.Renderer.RendererGradient.EndColor">
+            <summary>
+            Gets or sets the end color of gradient
+            </summary>
+        </member>
+        <member name="T:NextUI.Renderer.RendererGradient.GradientType">
+            <summary>
+            Provides a different type of gradient rendering
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.None">
+            <summary>
+            Disable any rendering
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.LeftRight">
+            <summary>
+            Specifies a gradient from Left to Right. 
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.TopBottom">
+            <summary>
+            Specifies a gradient from Top to Bottom.
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.Center">
+            <summary>
+            Specifies a gradient from Center.
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.DiagonalLeft">
+            <summary>
+            Specifies a gradient from Top Left to Bottom Right
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.DiagonalRight">
+            <summary>
+            Specifies a gradient from Top Right to Bottom Left.  
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.HorizontalCenter">
+            <summary>
+            Specifies a gradient from Center to Left and Right. 
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.VerticalCenter">
+            <summary>
+            Specifies a gradient from Center to Top and Bottom. 
+            </summary>
+        </member>
+        <member name="F:NextUI.Renderer.RendererGradient.GradientType.Solid">
+            <summary>
+            Specifies a non gradient solid color
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.Diamond">
+            <summary>
+            provide a class to generate a diamond shape
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.Diamond.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.Diamond.RenderRegion">
+            <summary>
+            Generate a diamond
+            </summary>
+            <returns>the region of the diamond</returns>
+        </member>
+        <member name="M:NextUI.Shape.Diamond.RenderPath">
+            <summary>
+            generate a diamond
+            </summary>
+            <returns>the graphicpath of the diamond</returns>
+        </member>
+        <member name="T:NextUI.Frame.CircularFrame">
+            <summary>
+            class to implement a circular frame object . User are required to adjust the scale bar 
+            sweep angle and start angle manually to fit within the frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Frame.CircularFrame.#ctor(System.Drawing.Point,System.Int32)">
+            <summary>
+            Basic constructor of the circular frame
+            </summary>
+            <param name="F">the left , top point at which the circular frame is rendered, relative to baseUI container</param>
+            <param name="size">the diameter of the circle </param>
+        </member>
+        <member name="P:NextUI.Frame.CircularFrame.Type">
+            <summary>
+            Get or set the frame to show
+            </summary>
+        </member>
+        <member name="P:NextUI.Frame.CircularFrame.ScaleCollection">
+            <summary>
+            Get a scale object to add a circlar bar object
+            </summary>
+        </member>
+        <member name="T:NextUI.Frame.CircularFrame.FrameType">
+            <summary>
+            The type of frame supported by circular frame
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.Circle">
+            <summary>
+            Render the frame as a circle
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.HalfCircle1">
+            <summary>
+            Render the frame as a semi circle facing upward
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.HalfCircle2">
+            <summary>
+            Render the frame as a semi circle facing left
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.HalfCircle3">
+            <summary>
+            Render the frame as a semi circle facing right
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.HalfCircle4">
+            <summary>
+            Render the frame as a semi circle facing down
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.QuarterCircle1">
+            <summary>
+            Render the frame as a quarter circle facing upward left
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.QuarterCircle2">
+            <summary>
+            Render the frame as a quarter circle facing downward left
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.QuarterCircle3">
+            <summary>
+            Render the frame as a quarter circle facing  upward right
+            </summary>
+        </member>
+        <member name="F:NextUI.Frame.CircularFrame.FrameType.QuarterCircle4">
+            <summary>
+            Render the frame as a quarter circle facing   downward right
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.FrameLabel">
+            <summary>
+            a class that implement the frame label
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.FrameLabel.#ctor(System.Drawing.Point,NextUI.Frame.Frame)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="p">the point to render the label , relative to the parent frame</param>
+            <param name="toplevel">the frame that owns the label</param>
+        </member>
+        <member name="P:NextUI.Component.FrameLabel.LabelText">
+            <summary>
+            Get or set the text to be displayed
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.FrameLabel.BackGrdImage">
+            <summary>
+            Get or set the image to be displayed , no image will be displayed if set to null
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.FrameLabel.Location">
+            <summary>
+            Get or set the point relative to the frame owner 
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.HalfCircleCustom4">
+            <summary>
+            provide a class to generate a half circle
+            facing downward
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom4.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom4.RenderRegion">
+            <summary>
+            Generate a half circle facing downward
+            </summary>
+            <returns>the region of the circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom4.RenderPath">
+            <summary>
+            Generate a half circle facing downward
+            </summary>
+            <returns>the graphic path of the half circle</returns>
+        </member>
+        <member name="T:NextUI.Component.DigitalPanel7Segment">
+            <summary>
+            a class that implement the 7 segment digital panel
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.DigitalPanel7Segment.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="toplevel">the frame that owns the panel</param>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel7Segment.Position">
+            <summary>
+            Get or set the direction of the panel
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel7Segment.BackOpacity">
+            <summary>
+            Get or set the opacity of the back ground
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel7Segment.FontThickness">
+            <summary>
+            Get or set the thickness of the font
+            </summary>
+        </member>
+        <member name="P:NextUI.Component.DigitalPanel7Segment.EnableGlare">
+            <summary>
+            Get or set to enable the glare effect
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.DigitalPanel7Segment.Direction">
+            <summary>
+            enumeration that set the type of 7 segment panel
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.DigitalPanel7Segment.Direction.Normal">
+            <summary>
+            the panel is displayed straight up
+            </summary>
+        </member>
+        <member name="F:NextUI.Component.DigitalPanel7Segment.Direction.Slide">
+            <summary>
+            the panel is displayed with a slight slant
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.SRectangle">
+            <summary>
+            provide a class to generate a rectangle
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.SRectangle.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.SRectangle.RenderRegion">
+            <summary>
+            Generate a rectangle
+            </summary>
+            <returns>region of the rectangle</returns>
+        </member>
+        <member name="M:NextUI.Shape.SRectangle.RenderPath">
+            <summary>
+            Generate a rectangle
+            </summary>
+            <returns>Graphicpath of the rectangle</returns>
+        </member>
+        <member name="T:NextUI.Shape.HalfCircleCustom3">
+            <summary>
+            provide a class to generate a half circle
+            facing right
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom3.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom3.RenderRegion">
+            <summary>
+            Generate a custom half circle facing right
+            </summary>
+            <returns>the region of the half circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom3.RenderPath">
+            <summary>
+            Generate a custom half circle facing right
+            </summary>
+            <returns>the graphic path of the half circle</returns>
+        </member>
+        <member name="T:NextUI.Shape.CustomCircle1">
+            <summary>
+            provide a class to generate a gear like  circle .
+            Internal used only
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircle1.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            Basic contructor 
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircle1.RenderRegion">
+            <summary>
+            Generate a custom  circle  
+            </summary>
+            <returns>region of the circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.CustomCircle1.RenderPath">
+            <summary>
+            Generate a graphicpath of the circle
+            </summary>
+            <returns>graphicpath of the circle</returns>
+        </member>
+        <member name="P:NextUI.Shape.CustomCircle1.NumberOfFace">
+            <summary>
+            Get or set the number of face for this circle, the number of face must be multiple of 2
+            </summary>
+        </member>
+        <member name="T:NextUI.Component.CircularMarker">
+            <summary>
+            a class that implement the marker which is only used by circular frame
+            </summary>
+        </member>
+        <member name="M:NextUI.Component.CircularMarker.#ctor(NextUI.Frame.Frame)">
+            <summary>
+            Basic ocnstructor
+            </summary>
+            <param name="toplevel">the frame that owns the marker</param>
+        </member>
+        <member name="P:NextUI.Component.CircularMarker.Center">
+            <summary>
+            get or set the center of the marker to be evol arround
+            </summary>
+        </member>
+        <member name="T:NextUI.BaseUI.BaseUI">
+            <remarks>
+            BaseUI provides a parent container class for all frame
+            </remarks>
+        </member>
+        <member name="M:NextUI.BaseUI.BaseUI.#ctor">
+            <summary>
+            Basic constructor
+            </summary>
+        </member>
+        <member name="P:NextUI.BaseUI.BaseUI.Interact">
+            <summary>
+            Get or set to enable interactivity for all frame within this baseUI.
+            When intaractivity is on , all pointer will be able to accept mouse event
+            </summary>
+        </member>
+        <member name="P:NextUI.BaseUI.BaseUI.Frame">
+            <summary>
+            Get a frame collection to add a frame to be rendered
+            </summary>
+        </member>
+        <member name="T:NextUI.Shape.HalfCircleCustom2">
+            <summary>
+            provide a class to generate a half circle
+            facing left
+            </summary>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom2.#ctor(NextUI.Common.RectangleWrap)">
+            <summary>
+            basic constructor
+            </summary>
+            <param name="container">a rectangle wrap object that defines the bound</param>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom2.RenderRegion">
+            <summary>
+            Generate a custom half circle facing left
+            </summary>
+            <returns>the region of the half circle</returns>
+        </member>
+        <member name="M:NextUI.Shape.HalfCircleCustom2.RenderPath">
+            <summary>
+            Generate a custom half circle facing left
+            </summary>
+            <returns>the graphic path of the half circle</returns>
+        </member>
+        <member name="T:NextUI.Collection.CircularPointerCollection">
+            <summary>
+            A stack that will stored a array of circular pointer
+            </summary>
+        </member>
+        <member name="M:NextUI.Collection.CircularPointerCollection.Add(NextUI.Component.CircularPointer)">
+            <summary>
+            Add a circular pointer to collection
+            </summary>
+            <param name="value">the pointer that was added</param>
+            <returns>the pointer that was added</returns>
+        </member>
+        <member name="M:NextUI.Collection.CircularPointerCollection.AddRange(NextUI.Component.CircularPointer[])">
+            <summary>
+            Add an array of pointer to the collection
+            </summary>
+            <param name="value">array of pointer</param>
+        </member>
+        <member name="M:NextUI.Collection.CircularPointerCollection.Remove(NextUI.Component.CircularPointer)">
+            <summary>
+            Remove the pointer from the collection , index will be adjusted accordingly
+            </summary>
+            <param name="value"></param>
+        </member>
+        <member name="P:NextUI.Collection.CircularPointerCollection.Item(System.Int32)">
+            <summary>
+            Access the circular pointer with the index
+            </summary>
+            <param name="index">the index of the object</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

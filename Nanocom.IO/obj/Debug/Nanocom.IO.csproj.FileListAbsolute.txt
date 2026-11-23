@@ -1,0 +1,60 @@
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+D:\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+D:\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+D:\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+D:\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+D:\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom2\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100406\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom-20100407\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100408\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom-20100409\Nanocom.IO\obj\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\bin\Debug\Nanocom.IO.pdb
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\ResolveAssemblyReference.cache
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.dll
+c:\privat\spi\Visual Studio 2008\Projects\Nanocom\Nanocom\Nanocom.IO\obj\Debug\Nanocom.IO.pdb

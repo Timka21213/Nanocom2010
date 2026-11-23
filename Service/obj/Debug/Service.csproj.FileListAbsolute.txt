@@ -1,0 +1,10 @@
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\bin\Debug\Service.exe
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\bin\Debug\Service.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\Service.exe
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\Service.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\bin\Debug\Nanocom.Gauge.dll
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\bin\Debug\Nanocom.Gauge.pdb
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\Service.ProjectInstaller.resources
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\Service.Service.resources
+C:\Users\Rudi\Documents\Visual Studio 2008\Projects\Nanocom\Nanocom\Service\obj\Debug\Service.csproj.GenerateResource.Cache

@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nanocom.IO.AutomaticPortChange" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQIBEAAAAAAAAAAABAAAIAAAQCAAAAAAAA=</HashCode>
+      <FileName>AutomaticPortChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.Context" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.DevChangeWindow" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>DevChangeWindow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.Frame" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAgAAAAQASAIAAAAAAAAAABAAAAAABAAABAAAA=</HashCode>
+      <FileName>Frame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.FrameProtocol" Collapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEEAEAAAAAASAAAAACAAAAAgAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>FrameProtocol.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.ManualPortChange" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ManualPortChange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.Port" Collapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAACAACAABAAAAAAAIAAAAAAIBAAAAgAAACAAAAA=</HashCode>
+      <FileName>Port.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.PortChangeNotifier" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAgA=</HashCode>
+      <FileName>PortChangeNotifier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.PortName" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PortName.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Nanocom.IO.WinApi" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCAgEAAAA4KgCgBAAOgAEBAFnKgIIgwCEIEghsgIAQ=</HashCode>
+      <FileName>WinApi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

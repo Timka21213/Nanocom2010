@@ -1,0 +1,48 @@
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Debug\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Debug\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\LinearFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\LinearFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\LinearFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Debug\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Release\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Release\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\bin\Release\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\LinearFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\LinearFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\LinearFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\LinearFrameGallery\obj\Release\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Release\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Release\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Release\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\LinearFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\LinearFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\LinearFrameGallery.csproj.GenerateResource.Cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Release\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Debug\LinearFrameGallery.exe
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Debug\LinearFrameGallery.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Debug\NextUI.dll
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\bin\Debug\NextUI.pdb
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\LinearFrameGallery.Form1.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\LinearFrameGallery.Properties.Resources.resources
+C:\Documents and Settings\sleong.low\My Documents\Visual Studio 2005\Projects\NextUI\Trial\LinearFrameGallery\obj\Debug\LinearFrameGallery.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\bin\Release\LinearFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\bin\Release\LinearFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2005\demo\LinearFrameGallery\obj\Release\LinearFrameGallery.pdb

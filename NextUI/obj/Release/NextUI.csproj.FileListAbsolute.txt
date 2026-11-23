@@ -1,0 +1,6 @@
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\bin\Release\NextUI.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\bin\Release\Document.xml
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\obj\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\NextUI\obj\Release\NextUI.pdb

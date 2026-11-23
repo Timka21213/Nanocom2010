@@ -1,0 +1,13 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\bin\Release\NumericalFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\bin\Release\NumericalFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.csproj.GenerateResource.Cache
+G:\backup\WPF\NextUI\NextUI1.0\1.0 release paid backup\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.exe
+G:\backup\WPF\NextUI\NextUI1.0\1.0 release paid backup\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.pdb
+C:\NextwavesoftDotNetGauge\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.exe
+C:\NextwavesoftDotNetGauge\vs2008\demo\NumericalFrameGallery\obj\Release\NumericalFrameGallery.pdb

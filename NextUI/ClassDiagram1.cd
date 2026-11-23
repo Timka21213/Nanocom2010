@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="NextUI.Component.DigitalPanel7Segment">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="NextUI.Component.DigitalPanel7Segment.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Component\DigitalPanel7Segment.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CACAAABhAAAAAAAgAAAACAAAYCgAAAQAABAIAAAACAA=</HashCode>
+      <FileName>Component\DigitalPanel7Segment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

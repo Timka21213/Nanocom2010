@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\bin\Release\CircularFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\bin\Release\CircularFrameGallery.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\CircularFrameGallery\obj\Release\CircularFrameGallery.pdb

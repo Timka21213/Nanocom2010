@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{93940C44-991B-4F02-9D4B-6CC1EE98186C}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Nanocom.Gauge</RootNamespace>
+    <AssemblyName>Nanocom.Gauge</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BalanceMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BalanceMeter.Designer.cs">
+      <DependentUpon>BalanceMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AccelMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="AccelMeter.Designer.cs">
+      <DependentUpon>AccelMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PercentMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PercentMeter.Designer.cs">
+      <DependentUpon>PercentMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StdThermoMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StdThermoMeter.Designer.cs">
+      <DependentUpon>StdThermoMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThermoMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ThermoMeter.Designer.cs">
+      <DependentUpon>ThermoMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManoMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ManoMeter.Designer.cs">
+      <DependentUpon>ManoMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gauge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Gauge.Designer.cs">
+      <DependentUpon>Gauge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RevMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RevMeter.Designer.cs">
+      <DependentUpon>RevMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpeedoMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SpeedoMeter.Designer.cs">
+      <DependentUpon>SpeedoMeter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VoltMeter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="VoltMeter.Designer.cs">
+      <DependentUpon>VoltMeter.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NextUI\NextUI.csproj">
+      <Project>{42B0D358-F043-430A-B3B3-1735A97207E8}</Project>
+      <Name>NextUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="StdThermoMeter.resx">
+      <DependentUpon>StdThermoMeter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThermoMeter.resx">
+      <DependentUpon>ThermoMeter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gauge.resx">
+      <DependentUpon>Gauge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RevMeter.resx">
+      <DependentUpon>RevMeter.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

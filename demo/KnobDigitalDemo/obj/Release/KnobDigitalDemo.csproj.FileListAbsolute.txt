@@ -1,0 +1,9 @@
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\bin\Release\KnobDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\bin\Release\KnobDigitalDemo.pdb
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\bin\Release\NextUI.dll
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\ResolveAssemblyReference.cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\KnobDigitalDemo.Form1.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\KnobDigitalDemo.Properties.Resources.resources
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\KnobDigitalDemo.csproj.GenerateResource.Cache
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\KnobDigitalDemo.exe
+F:\NextUI1.0\1.0 release paid\vs2008\demo\KnobDigitalDemo\obj\Release\KnobDigitalDemo.pdb
